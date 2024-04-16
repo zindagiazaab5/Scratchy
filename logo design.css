@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+
+}
+
+
+section {
+
+    height: 100vh;
+
+}
+
+.nav {
+    height: 10vh;
+
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    align-items: center;
+}
+
+
+.nav-1::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    display: block;
+    transition: 0.5s;
+    background-color: black;
+}
+
+.nav-1:hover::after {
+    width: 100%;
+    transition: 0.5s;
+}
+
+ul li:hover ul.dropdawn {
+    display: block;
+
+}
+
+.logo {
+    position: relative;
+
+}
+
+.dropdawn li .drop:hover {
+    color: rgb(58, 34, 101);
+
+}
+
+.navbar {
+    background-color: rgb(239, 237, 237);
+    display: flex;
+    height: 12vh;
+    text-align: center;
+    justify-content: space-evenly;
+    border-bottom: 5px solid black;
+    text-align: center;
+    align-items: center;
+}
+
+input {
+    position: relative;
+    height: 40px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+
+}
+.button-1{
+    display: flex;
+}
+
+
+.btn-1  a{
+    text-decoration: none;
+    color: white;
+  }
+.btn-1 {
+    background-image: linear-gradient(to right,#293b39 0%, #1e9184 51%,#04071a  100%);
+    width: 140px;
+    height: 40px;
+    font-size: 17px;
+    margin: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display:block;
+    border: none;
+  }
+
+  .btn-1:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+ul li ul.dropdawn li {
+    display: block;
+    background: transparent;
+    margin: 2px 0px;
+
+}
+
+.drop {
+    font-size: 14px;
+    color: rgb(27, 27, 24);
+    text-align: left;
+    line-height: 25px;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+ul li ul.dropdawn {
+    border: 2px solid black;
+    width: 270px;
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li:hover ul.dropdawn {
+    display: block;
+
+}
+
+.dropdawn li .drop:hover {
+    color: rgb(58, 34, 101);
+    background-color: none;
+}
+   
+
+/* End navbar CSS  */
+.content-2 h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+}
+.content-1 {
+    margin: 80px;
+    font-weight: none;
+}
+h3{
+    color:cornflowerblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content-1 p{
+    color:rgb(82, 81, 81);
+    font-family: poppins;
+}
+.Intro h2{
+    color: #555;
+}
+.Intro p {
+    width: 1200px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content: '';
+    background-color:#009688;
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+.content{
+    height: 350px;
+    background-image: url('./logo.img/8...jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    color: white;
+    
+}   
+.content-2{
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+.img{
+    display: flex;
+    justify-content: space-around;
+}
+.content-4{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.content h1 {
+    font-size: 50px;
+    font-family: ;
+    color: white;
+    text-shadow: 3px 3px 3px black , 2px 2px 3px blue;
+}
+
+.content-4    .btn{
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    border:none;
+    border-radius: 7px;
+    color: white;
+    background-color: brown;
+    transition: all 0.5s;
+   
+}
+.btn:hover{
+    background-color:crimson;
+}
+.content-4 h4{
+    color: cornflowerblue;
+}
+.content-4 p{
+    color:rgb(90, 89, 89) ;
+    font-size: 14px;
+ 
+}
+/* start footer  */
+.footer-1 {
+    background-color: black;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-1    h2{
+    font-size: 30px;
+    color: #bdbdbd;
+}
+.icons {
+    position: relative;
+    top: 50px;
+    color: #a29898;
+    display: table-column-group;
+     margin-left: 30px; 
+    align-items: center;
+}
+.fab,
+.fas,
+ .fa-solid,
+.fa-brands{
+    text-decoration: none;
+    color:#cec6c6;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+}
+.fab:hover ,.fa-brands:hover{
+    color: rgb(216, 199, 100);
+}
+.footer-bottom {
+    color: white;
+    border-top: 1px solid rgb(23, 22, 22);
+    align-items: center;
+    background-color: black;
+    text-align: center;
+}
+
+.link-2{
+    color:#a29898;
+    font-size: 15px;
+    text-decoration: none;
+}
+.link-2:hover{
+    color:gold;
+}
+/* scrollTo Top CSS  */
+.fa{
+    font-size: 30px;
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 50px;
+    right: 5px;
+    color:white;
+    background-color:transparent;
+     padding: 5px 8px;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.8s ease 0s;
+    background-color:rgba(61, 58, 58, 0.3);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:10px ;
+}
+.fa:hover{
+    background-color:transparent;
+    color: #009688;
+}
+/* Footer End  */
